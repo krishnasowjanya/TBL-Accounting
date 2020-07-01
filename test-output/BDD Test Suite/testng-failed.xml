@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" configfailurepolicy="continue" guice-stage="DEVELOPMENT" name="Failed suite [BDD Test Suite]" parallel="tests">
+  <parameter name="browser" value="FireFox"/>
+  <listeners>
+    <listener class-name="ListenerPackage.Listener"/>
+  </listeners>
+  <test name="Cucumber(failed)" parallel="tests">
+    <parameter name="browser" value="FireFox"/>
+    <classes>
+      <class name="RunnerPackage.Runnerclass">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- RunnerPackage.Runnerclass -->
+    </classes>
+  </test> <!-- Cucumber(failed) -->
+</suite> <!-- Failed suite [BDD Test Suite] -->

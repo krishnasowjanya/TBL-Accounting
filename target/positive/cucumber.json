@@ -1,0 +1,364 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 17854700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AStepDefnition.method1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 16961747200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.setUp()"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "Organization Taxpayer Approve Scenario",
+        "description": "",
+        "id": "organization-taxpayer-approve;organization-taxpayer-approve-scenario;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 172800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AStepDefnition.afterClass(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 346228200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.afterClass(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 481258500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.saveScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 34650673300,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Open CRM URL",
+            "match": {
+              "location": "AStepDefnition.open_CRM_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 725518000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Close Popup Window",
+            "match": {
+              "location": "AStepDefnition.close_Popup_Window()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 336896400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Click on Case management Sub module",
+            "match": {
+              "location": "AStepDefnition.click_on_Case_management_Sub_module()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 258778000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Goto Queues",
+            "match": {
+              "location": "AStepDefnition.goto_Queues()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8076266200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "switch to frame",
+            "match": {
+              "location": "AStepDefnition.switch_to_frame()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1111280900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Select SearchResult Dropdown element",
+            "match": {
+              "location": "AStepDefnition.select_SearchResult_Dropdown_element()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5485768800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Selecte Queues Dropdown element",
+            "match": {
+              "location": "AStepDefnition.selecte_Queues_Dropdown_element()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "Enter the Reference number \"*ARN/00020520/2019\" in search box.",
+            "match": {},
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "Click on Serch icon",
+            "match": {
+              "location": "AStepDefnition.click_on_Serch_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "Click selected Reference Number",
+            "match": {
+              "location": "AStepDefnition.click_selected_Reference_Number()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "Pick the selected Reference number",
+            "match": {
+              "location": "AStepDefnition.pick_the_selected_Reference_number()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "Click on Case management Sub module",
+            "match": {
+              "location": "AStepDefnition.click_on_Case_management_Sub_module()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "Goto Dashboard",
+            "match": {
+              "location": "AStepDefnition.goto_Dashboard()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16,
+            "name": "Enter Reference number in search box \"*ARN/00020520/2019\"",
+            "match": {},
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "Click Dashboard serch icon",
+            "match": {
+              "location": "AStepDefnition.click_Dashboard_serch_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "Click on appeard Reference number",
+            "match": {
+              "location": "AStepDefnition.click_on_appeard_Reference_number()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "Click on Open Case Record link",
+            "match": {
+              "location": "AStepDefnition.click_on_Open_Case_Record_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "Click on Orgnization NextStage button",
+            "match": {
+              "location": "AStepDefnition.click_on_Orgnization_NextStage_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "Goto view Organization AttachmentDetails screen",
+            "match": {
+              "location": "AStepDefnition.goto_view_Organization_AttachmentDetails_screen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "Download Organization Attachments",
+            "match": {
+              "location": "AStepDefnition.download_Organization_Attachments()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "Select Organization Approval outcome dropdown value",
+            "match": {
+              "location": "AStepDefnition.select_Organization_Approval_outcome_dropdown_value_to_Approve()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "Click on Save button",
+            "match": {
+              "location": "AStepDefnition.click_on_Save_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "Verify the String \"Read only\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Read only",
+                  "offset": 19
+                }
+              ],
+              "location": "AStepDefnition.verify_the_String(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "Click on Taxpayer name",
+            "match": {
+              "location": "AStepDefnition.click_on_Taxpayer_name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "Get the TIN Number",
+            "match": {
+              "location": "AStepDefnition.get_the_TIN_Number()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Organization Taxpayer Approve",
+    "description": "",
+    "id": "organization-taxpayer-approve",
+    "keyword": "Feature",
+    "uri": "src/test/java/crmApplicationScenarios/Approve_Organization_Taxpayer.feature"
+  }
+]
